@@ -1,0 +1,30 @@
+{
+    "root": true,
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended",
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "bracketSpacing": true,
+          "semi": true,
+          "singleQuote": true,
+          "trailingComma": "all",
+          "printWidth": 80,
+          "tabWidth": 2
+        }
+      ]
+    }
+  }
+  
